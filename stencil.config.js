@@ -1,10 +1,10 @@
 exports.config = {
   bundles: [
-    { components: ['my-name'] }
+    { components: ['my-modal'] }
   ],
-  collections: [
-    { name: '@stencil/router' }
-  ]
+  // collections: [
+  //   { name: '@stencil/router' }
+  // ]
 };
 
 exports.devServer = {
